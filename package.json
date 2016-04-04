@@ -29,8 +29,5 @@
         "gulp-jscs": "~3.0.2"
     },
     "devDependencies": {},
-    "bin": {
-        "install": "install.js"
-    },
     "main": "./index.js"
 }
