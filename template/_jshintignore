@@ -1,0 +1,12 @@
+# General
+node_modules
+.idea
+npm-debug.log
+phantomjsdriver.log
+.DS_Store
+
+# Commonly used names
+tmp
+dist
+build
+coverage
