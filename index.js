@@ -15,7 +15,7 @@ var getTasks = function ( dir ) {
                 console.error( 'Cannot load file ', taskDir + '/' + file );
                 content = false;
             }
-            tasks[ file ] = content;
+            tasks[ file.replace( /\.js$/gi, '' ) ] = content;
         } );
     }
     return tasks;
