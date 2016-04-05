@@ -22,5 +22,5 @@ var getTasks = function( dir ) {
 };
 
 module.exports = {
-    tasks: getTasks( './tasks' )
+    tasks: getTasks( __dirname + '/tasks' )
 };
