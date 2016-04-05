@@ -1,8 +1,19 @@
 {
     "name": "rig-javascript",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": "Vlad Filip ( vlad.filip.dev@gmail.com )",
     "description": "A rig containing javascript utilities",
+    "keywords": [
+        "rig",
+        "rigs",
+        "tool",
+        "plugin",
+        "js",
+        "javascript",
+        "rigsplugin",
+        "rigsfriendly"
+    ],
+    "license": "MIT",
     "engines": {
         "node": ">=5.8.0",
         "npm": ">=3.7.3"

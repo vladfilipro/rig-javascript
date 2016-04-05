@@ -3,11 +3,13 @@
  * into one, and handles requires functions
  *
  * uses the following parameters:
- *     config.source {String}
+ *     config.src {String}
  *     config.dest {String}
  *     config.debug {Boolean}
  *     config.minify {Boolean}
  *     config.transform {Array}
+ *     config.sourcemap {Boolean}
+ *     config.output {String}
  */
 
 'use strict';
@@ -20,7 +22,7 @@ var sourcemaps = require( 'gulp-sourcemaps' );
 var uglify = require( 'gulp-uglify' );
 
 module.exports = function browserifyTaskFunc( name, config ) {
-    gulp.task( name, config.dependency, function() {
+    gulp.task( name, config.dependency, function () {
 
         var browserifyTask = browserify( {
             entries: config.src,
