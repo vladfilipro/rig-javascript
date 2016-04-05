@@ -12,7 +12,7 @@ var getTasks = function( dir ) {
             try {
                 content = require( taskDir + '/' + file );
             } catch ( e ) {
-                console.error( 'Cannot load file ', taskDir + '/' + file );
+                console.error( 'Cannot load file ', taskDir + '/' + file, e );
                 content = false;
             }
             tasks[ file.replace( /\.js$/gi, '' ) ] = content;
