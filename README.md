@@ -54,11 +54,11 @@ A rig containing javascript utilities
 
 - `rig-javascript__install-rig`: A task which addds to your project `.jscsrc`, `.jshintignore`, `.jshintrc`, `.npmignore`
   - properties:
-    - `src`: String or Array, refers to the destination path (usually `./`)
+    - `path`: String or Array, refers to the destination path (usually `./`)
 
     ```
     {
         taskname: 'rig-javascript__install-rig',
-        src: './'
+        path: './'
     }
     ```
