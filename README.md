@@ -1,4 +1,6 @@
 # rig-javascript
+[![NPM version][npm-image]][npm-url] [![Dependency Status][depstat-image]][depstat-url]
+
 A rig containing javascript utilities
 
 ## How to use
