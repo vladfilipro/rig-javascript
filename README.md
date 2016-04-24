@@ -1,5 +1,5 @@
 # rig-javascript
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]  [![Coverage Status][coveralls-image]][coveralls-url] [![Dependency Status][depstat-image]][depstat-url]
+[![Dependency Status](https://david-dm.org/vladfilipro/rig-javascript.svg)](https://david-dm.org/vladfilipro/rig-javascript)
 
 A rig containing javascript utilities
 
