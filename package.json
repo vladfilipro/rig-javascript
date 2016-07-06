@@ -1,6 +1,6 @@
 {
     "name": "rig-javascript",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "author": "Vlad Filip ( vlad.filip.dev@gmail.com )",
     "description": "A rig containing javascript utilities",
     "keywords": [
@@ -26,7 +26,7 @@
         "url": "https://github.com/vladfilipro/rig-javascript/issues"
     },
     "dependencies": {
-        "copy-dir": "^0.0.8",
+        "copy-dir": "~0.3.0",
 
         "gulp": "~3.9.1",
 
@@ -39,7 +39,7 @@
         "jshint": "~2.9.1",
         "gulp-jshint": "~2.0.0",
 
-        "gulp-jscs": "~3.0.2"
+        "gulp-jscs": "~4.0.0"
     },
     "devDependencies": {},
     "main": "./index.js"
